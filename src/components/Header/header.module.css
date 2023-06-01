@@ -1,0 +1,22 @@
+.header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.wrapper {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.header_store {
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.cart{
+    justify-content: flex-end;
+}

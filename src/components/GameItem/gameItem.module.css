@@ -1,0 +1,39 @@
+.gameItem {
+    text-decoration: none;
+    color: white;
+    width: 320px;
+    height: 360px;
+    background-color: rgb(36, 37, 41);
+    border-radius: 15px;
+}
+
+.gameItem:not(:last-child) {
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.gameItem .title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gameItem .details {
+    padding: 10px 20px;
+}
+
+.gameItem .description {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.gameItem .buy {
+    padding-top: 20px;
+}
+
+.gameItem .genre {
+    background-color: rgb(80, 82, 84);
+    border-radius: 10px;
+}

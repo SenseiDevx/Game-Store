@@ -1,0 +1,24 @@
+.cartItem {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartItem .price {
+    display: flex;
+    align-items: center;
+}
+
+.cartItem .span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cartItem .prices {
+    font-size: 19px;
+    color: #61dafb;
+    font-weight: bold;
+    font-style: italic;
+}
